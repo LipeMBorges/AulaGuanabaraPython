@@ -15,3 +15,4 @@ import random
 #módulo ramdom para número aleatorio
 num=random.randint(1, 10)
 print(num)
+#print('teste  github')
