@@ -1,0 +1,2 @@
+c1=input('digite algo:')
+print(f'é um número?{c1.isnumeric()}\né alfanumérico?{c1.isalnum()}\ntem letra do alfabeto?{c1.isalpha()}\ntodos os caracteres são ASCII?{c1.isascii()}\né um número decimal?{c1.isdecimal()}é um sequência de dígitos?{c1.isdigit()}\né um indicador python válido?{c1.isidentifier()}\nso tem letras minúculas?{c1.islower()}\né imprimível?{c1.isprintable()}\nso tem espaço?{c1.isspace()}\nsó tem letra maiúscula?{c1.isupper()}\nesta capitalizada?{c1.istitle()}')

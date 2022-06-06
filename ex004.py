@@ -1,0 +1,15 @@
+c1=input('digite algo:')
+print('é um número?',c1.isnumeric())
+print('é alfanumérico?',c1.isalnum())
+print('é uma letra do alfabeto?',c1.isalpha())
+print('todos os caracteres são ASCII?',c1.isascii())
+#Os caracteres ASCII têm pontos de código no intervalo U+007F. A string vazia também é ASCII
+print('é um número decimal?',c1.isdecimal())
+print('é um sequência de dígitos?',c1.isdigit())
+print('é um indicador python válido?',c1.isidentifier())
+#chame keyword.iskeyword(s) para testar se a string é um identificador reservado, como "def" ou "class"
+print('so tem letras minúculas?',c1.islower())
+print('é imprimível?',c1.isprintable())
+print('so tem espaço?',c1.isspace())
+print('esta capitalizada?',c1.istitle())
+print('só tem letra maiúscula?',c1.isupper())
