@@ -10,4 +10,4 @@ if veloc<=80:
 else:
     ultrapassou = veloc - 80
     multa= ultrapassou * 7
-    print(f'Você ultrapassou o máximo permitido e terá que pagar uma multa de {multa} reais.')
+    print(f'Você ultrapassou o máximo permitido e terá que pagar uma multa de {multa:.2f} reais.')

@@ -9,7 +9,7 @@ frase.count('o',0,13)-->quantas vezes possui o caracter dentre a posicao 0 e 13(
 frase.find('deo')--->onde começa tal coisa
 frase.find('Android')-->vai retornar valor -1 pq não existe isso no texto"""
 #'Curso'in frase-->vai retornar True ou false
-#frase.replace('videdo','Android')-->substitui a palavra
+#frase.replace('video','Android')-->substitui a palavra
 #frase.upper()-->vai ficar tudo maiúsculo
 #frase.lower()-->vai substituir oq esta em maiusculo por minusculo
 #frase.capitalize()-->primeiro caracter em maiusculo, resto tudo minusculo

@@ -1,4 +1,4 @@
-frase = '                Curso em Vídeo Python'
+frase = '            Curso em Vídeo Python'
 print(frase[1:15:2])
 print(frase[::2])
 print(frase.count('o'))
